@@ -1,8 +1,8 @@
 {
   "compilerOptions": {
-    "target": "ES2015",
+    "target": "ES2020",
     "module": "CommonJS",
-    "lib": ["es6", "dom"],
+    "lib": ["ES2020"],
     "allowJs": true,
     "skipLibCheck": true,
     "esModuleInterop": true,
@@ -15,7 +15,6 @@
     "noFallthroughCasesInSwitch": true,
     "noEmit": false,
     "noEmitOnError": true,
-    "jsx": "react-jsx",
     "sourceMap": true,
     "outDir": "dist"
   },
